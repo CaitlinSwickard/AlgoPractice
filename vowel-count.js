@@ -17,9 +17,11 @@ var vowelCount = function (str) {
     }
   }
   return count;
-}
+};
 
 vowelCount("How many vowels are in this string?")
+
+
 
 // Alternatively, this problem could have been solved without the use of `indexOf`, 
 // but by using the logical OR (||) operator to check for each vowel
